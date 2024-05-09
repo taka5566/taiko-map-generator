@@ -1,38 +1,170 @@
-.App {
-  text-align: center;
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: "Kanteiryu";
+	src: url("./assets/ipag.ttf") format("woff2");
+	font-weight: normal;
+	font-style: normal;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  font-family: "Kanteiryu", sans-serif;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+@keyframes fade-in-and-slide-down {
+  0% {
+    opacity: 0;
+    transform: translateY(-30%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.animate-fade-in-and-slide-down {
+  animation: fade-in-and-slide-down 1s ease-out forwards;
 }
 
-.App-link {
-  color: #61dafb;
+.bgImage {
+  background-image: url('./assets/Background_0.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.barImg {
+  background-image: url('./assets/Bar_Genre_10.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+    width: 800px; /* Set a fixed pixel value for the width */
+    height: 130px;
+}
+
+.flashImg {
+    background-image: url('./assets/Slash.png');
+    /* position: absolute; */
+    width: 800px;
+    height: 120px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    animation: slideAnimation 1.5s infinite; 
+    animation-delay: 1s; 
+    visibility: hidden;  
+}
+
+  @keyframes slideAnimation {
+    0% {
+      animation-timing-function: linear;
+      transform: translateX(-40%);
+      visibility: visible; 
+    }
+    20% {
+      transform: translateX(45%);
+      visibility: hidden;
+    }
+
   }
-  to {
-    transform: rotate(360deg);
+
+.starImg {
+  background-image: url('./assets/GoldBStar.png');
+  width: 450px;
+  height: 200px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: -2%;
+  animation: popupAnimation 1s  infinite;
+  /* animation: changePosition  0s infinite; */
+  animation-delay: 1.5s;
+  visibility: hidden;
+
+
+}
+
+@keyframes popupAnimation {
+  0% {
+    transform: scale(0);
+    visibility: visible; 
+  }
+  25% {
+    transform: scale(1);
+    
+  }
+  50%{
+    transform: scale(0);
+    visibility: hidden;
   }
 }
+
+
+
+.genImg {
+  background-image: url('./assets/Bar_Genre_1.png');
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+  .redDon .blueDon {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .redDonTopLeft {
+    top: -15px;
+    left: -15px;
+    background-image: url('./assets/redDon.png');
+  }
+
+  .redDonTopRight {
+    top: -15px;
+    right: -15px;
+    background-image: url('./assets/redDon.png');
+  }
+
+  .redDonBotLeft {
+    bottom: -15px;
+    left: -15px;
+    background-image: url('./assets/redDon.png');
+  }
+
+  .redDonBotRight {
+    bottom: -15px;
+    right: -15px;
+    background-image: url('./assets/redDon.png');
+  }
+
+    .blueDonTopLeft {
+    top: -15px;
+    left: -20px;
+    background-image: url('./assets/blueDon.png');
+  }
+
+  .blueDonTopRight {
+    top: -30px;
+    right: -15px;
+    background-image: url('./assets/blueDon.png');
+  }
+
+  .blueDonBotLeft {
+    bottom: -15px;
+    left: -15px;
+    background-image: url('./assets/blueDon.png');
+  }
+
+  .blueDonBotRight {
+    bottom: -15px;
+    right: -15px;
+    background-image: url('./assets/blueDon.png');
+  }
