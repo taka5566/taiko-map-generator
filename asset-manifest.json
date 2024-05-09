@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/taiko-map-generator/static/css/main.f7973de2.css",
+    "main.js": "/taiko-map-generator/static/js/main.50099902.js",
+    "static/media/ipag.ttf": "/taiko-map-generator/static/media/ipag.6741718f492c5f8349c2.ttf",
+    "static/media/Background_0.png": "/taiko-map-generator/static/media/Background_0.a7fb83710079c6a50d23.png",
+    "index.html": "/taiko-map-generator/index.html",
+    "main.f7973de2.css.map": "/taiko-map-generator/static/css/main.f7973de2.css.map",
+    "main.50099902.js.map": "/taiko-map-generator/static/js/main.50099902.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f7973de2.css",
+    "static/js/main.50099902.js"
+  ]
+}
