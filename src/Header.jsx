@@ -8,7 +8,7 @@ const Header = () => {
      p-8 whitespace-nowrap ">
             Taiko Map Generator
      <div className="flashImg absolute"></div>
-      <div className="starImg absolute "></div>
+      <div className="starImg  absolute"></div>
     </div>
   </td>
   </div>

@@ -6,7 +6,7 @@ import { generateMap } from './Generator.js';
   const [selectedPattern, setSelectedPattern] = useState('');
   const [density, setDensity] = useState(0);
   const [length, setLength] = useState(10);
-  const [hsValue, setHSValue] = useState('#SCROLL');
+  const [hsValue, setHSValue] = useState('#SCROLL 1');
   const [bpmValue, setBPMValue] = useState('');
   const [songName, setSongName] = useState('');
 
