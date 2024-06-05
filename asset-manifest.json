@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/taiko-map-generator/static/css/main.f7973de2.css",
-    "main.js": "/taiko-map-generator/static/js/main.50099902.js",
+    "main.css": "/taiko-map-generator/static/css/main.edb43186.css",
+    "main.js": "/taiko-map-generator/static/js/main.078b95d9.js",
     "static/media/ipag.ttf": "/taiko-map-generator/static/media/ipag.6741718f492c5f8349c2.ttf",
+    "static/media/howTo.png": "/taiko-map-generator/static/media/howTo.19b265693fd37da21792.png",
     "static/media/Background_0.png": "/taiko-map-generator/static/media/Background_0.a7fb83710079c6a50d23.png",
     "index.html": "/taiko-map-generator/index.html",
-    "main.f7973de2.css.map": "/taiko-map-generator/static/css/main.f7973de2.css.map",
-    "main.50099902.js.map": "/taiko-map-generator/static/js/main.50099902.js.map"
+    "main.edb43186.css.map": "/taiko-map-generator/static/css/main.edb43186.css.map",
+    "main.078b95d9.js.map": "/taiko-map-generator/static/js/main.078b95d9.js.map"
   },
   "entrypoints": [
-    "static/css/main.f7973de2.css",
-    "static/js/main.50099902.js"
+    "static/css/main.edb43186.css",
+    "static/js/main.078b95d9.js"
   ]
 }
